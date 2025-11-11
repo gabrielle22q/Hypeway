@@ -1,0 +1,104 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: Alexandria;
+
+}
+
+body{
+  background-image: url(imagens/image\ 1.png);
+background-repeat: no-repeat;
+background-size:cover;
+display: flex;
+
+justify-content: space-around;
+gap: 50px;
+
+}
+main{
+    background-color: rgb(255, 255, 255);
+    width: 90%;
+    height: 80%;
+    display: flex;
+    gap: 50px;
+    justify-content: space-around;
+}
+.esquerdo>img{
+margin-top: 20%;
+  width: 400px;
+  border-radius: 30px;
+}
+.start{
+    display: flex;
+    gap: 30px;
+
+}
+
+.logo{
+    text-align: center;
+    margin:auto ;
+    align-items: center;
+}
+
+hr{
+    color:  #430101;
+    width: 100%;
+    margin-bottom: 30px;
+    margin-top:40px;
+    border-color: #430101;
+   
+}
+h1{
+    color: #430101;
+   
+    font-weight: 400;
+    font-size: 64px;
+}
+input{
+    border-radius: 20px;
+    height: 60px ;
+    margin-bottom: 20px;
+    color: #430101;
+    border: solid  #430101;
+    width: 80%;
+ 
+}
+form{
+    display: block;
+    text-align: center;
+
+}
+#radio{
+  width: auto;  
+  margin-bottom: 0;
+  height: 15px;
+
+text-align: left;
+}
+.lembre{
+    text-align: left;
+    margin-left: 60px;
+    color: #430101;
+}
+.button{
+   text-align: center;
+}
+button{
+  color: #430101;
+    background:none;
+    border-radius: 15px;
+       padding: 10px;
+       width: 200px;
+       margin-top: 30px;
+}
+a{
+    color: #000;
+
+}
+.final{
+    text-align: center;
+}
+.entrar{
+    margin-top: 30px;
+}

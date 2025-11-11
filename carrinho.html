@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Carrinho - HypeWay</title>
+  <link rel="stylesheet" href="carrinho.css">
+</head>
+<body>
+  <body>
+  <header class="site-header">
+    <nav class="top-nav">
+      <div class="logo">
+        <a href="menu.html" aria-label="Home"><img src="imagens/Manu (1) 1.png" alt="logo"></a>
+      </div>
+
+      <ul class="menu-principal">
+        <li><a href="menu.html">Início</a></li>
+        <li><a href="menu.html#ofertas">Ofertas</a></li>
+        <li><a href="roupa.html">Feminino</a></li>
+        <li><a href="man.html">Masculino</a></li>
+        <li><a href="esporte.html">Esporte</a></li>
+      </ul>
+
+      <div class="nav-icons">
+        <form action="busca.html" method="get" class="search-form" role="search">
+          <input type="search" name="q" placeholder="Buscar..." aria-label="Buscar">
+        </form>
+
+        <a class="cart-link" href="carrinho.html" aria-label="Carrinho">
+          <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M7 4h-2l-1 2h2l3.6 7.59-1.35 2.44c-.16.29-.25.61-.25.97 0 1.1.9 2 2 2h8v-2h-8l1.1-2h5.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49-1.74-.96L19 9H9.21l-.94-2H7z"/>
+          </svg>
+          <span class="cart-badge">0</span>
+        </a>
+      </div>
+    </nav>
+  </header>
+  <main class="cart-page">
+    <h1>Seu carrinho</h1>
+
+    <section class="cart-content">
+      <div id="cart-items" class="cart-items"></div>
+
+      <aside class="cart-summary">
+        <div class="summary-box">
+          <p>Subtotal: <span id="subtotal">R$ 0,00</span></p>
+          <p>Frete: <span id="frete">R$ 0,00</span></p>
+          <hr>
+          <p class="total">Total: <strong id="total">R$ 0,00</strong></p>
+          <button id="checkout" class="btn-primary">Continuar para pagamento</button>
+        </div>
+      </aside>
+    </section>
+
+    <div id="empty-message" class="empty-message" hidden>
+      <p>Seu carrinho está vazio.</p>
+      <a href="menu.html" class="btn-link">Continuar comprando</a>
+    </div>
+  </main>
+
+  <script src="cart.js"></script>
+</body>
+</html>
